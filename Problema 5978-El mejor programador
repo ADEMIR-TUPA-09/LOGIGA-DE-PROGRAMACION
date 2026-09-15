@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    string nom1,nom2 ;
+    int punt1,punt2;
+    cin>>nom1 >>punt1;
+    cin>>nom2 >>punt2;
+    
+    if(punt1>punt2){
+        cout<<" "<<nom1 <<endl;
+    }
+    else{
+        cout<<" "<<nom2 <<endl;
+    }
+    
+    return 0;
+}

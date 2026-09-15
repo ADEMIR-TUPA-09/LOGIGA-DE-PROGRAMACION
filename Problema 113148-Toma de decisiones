@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main (){
+    int a,b,res,resp,resp2;
+    
+    cin>>a >>b;
+    
+    if(a+b == 5){
+        b = b + 3;
+        res= 2*a + b;
+        cout<<" "<<res <<endl;
+    }
+    else{
+        a = a - 1;
+        if((7*a + b)%2 == 0){
+            resp = a - b;
+            cout<<" "<<resp <<endl;
+        }
+        else{
+            resp2 = a*b;
+            cout<<" "<<resp2 <<endl;
+        }
+    }
+    
+    return 0;
+}

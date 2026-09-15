@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,res1,res2;
+    cin>>a >>b;
+    
+    if(a - b < 0){
+        res1 = b - a;
+        cout<<"DEJALO YA ESTA MUERTO "<<endl <<res1;
+    }
+    else{
+        res2 = a - b;
+        cout<<"EL NEGOCIO SI VA A JALAR "<<endl <<res2;
+    }
+    
+    return 0;
+}

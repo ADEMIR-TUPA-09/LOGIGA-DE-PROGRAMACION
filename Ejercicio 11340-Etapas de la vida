@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int l;
+	cin>>l;
+	if(l <= 22)
+	{
+		if(l <= 3){
+			cout<<"BEBE "<<endl;
+		}
+		else{
+			if(l <= 12){
+				cout<<"NINO "<<endl;
+			}
+			else{
+				cout<<"JOVEN "<<endl;
+			}
+		}
+	}
+	else{
+		if(l < 60){
+			cout<<"ADULTO "<<endl;
+		
+		}
+		else{
+			cout<<"ADULTO 3RA "<<endl;
+		}
+	}
+	return 0;
+}

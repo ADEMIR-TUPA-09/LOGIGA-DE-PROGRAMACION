@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int x,y;
+	cin>>x >>y;
+	if(x>0)
+	{
+		if(y>0){
+			cout<<"primer cuadrante"<<endl;
+		}
+		else{
+			cout<<"cuarto cuadrante"<<endl;
+		}
+	}
+	else{
+		if(y>0){
+			cout<<"segundo cuadrante"<<endl;
+		
+		}
+		else{
+			cout<<"tercer cuadrante"<<endl;
+		}
+	}
+	
+	return 0;
+}

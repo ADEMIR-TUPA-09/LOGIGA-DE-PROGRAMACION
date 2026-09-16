@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int x,y,z;
+    cin>>x >>y >>z;
+    if(x == y && y == z){
+        cout<<"El triangulo es equilatero "<<endl;
+    }
+    else{
+        if(x == y || x == z || y == z){
+            cout<<"El triangulo es isosceles "<<endl;
+        }
+        else{
+            cout<<"El triangulo es escaleno "<<endl;
+        }
+    }
+    return 0;
+    
+}

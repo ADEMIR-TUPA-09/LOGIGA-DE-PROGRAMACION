@@ -1,0 +1,27 @@
+#include<iostream>
+#include<cstdlib>
+#include<ctime>
+using namespace std;
+int main(){
+	srand(time(0));
+	int comp, usu;
+	comp = rand() % 3 + 1;
+	
+	cout<<"Sea piedra=1, tijera=2, papel=3. Elija uno de estos: ";
+	cin>>usu;
+	
+	if(usu == comp){
+		cout<<"Empate "<<endl;
+	} 
+	else{
+		if((usu == 2 && comp == 3) || (usu == 3 && comp == 1) || (usu == 1 && comp == 2)){
+		   	cout<<"GANASTE "<<endl;
+		   }
+		else{
+			cout<<"PERDISTE, FRACASAO "<<endl;
+		}
+	}
+	cout<<"La computadora eligio "<<comp <<endl;
+	
+	return 0;
+}

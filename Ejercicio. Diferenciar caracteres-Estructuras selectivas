@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main(){
+    char minuscula,mayuscula;
+    cin>>minuscula >>mayuscula;
+    if(minuscula == mayuscula){
+        cout<<"SON IGUALES"<<endl;
+    }
+    else 
+    {
+        cout<<"SON DIFERENTES"<<endl;
+    }
+    return 0;
+}

@@ -1,0 +1,22 @@
+include<iostream>
+using namespace std;
+
+int main()
+{
+    int min,clave;
+    float total;
+    cin>>clave >>min;
+    
+    switch(clave){
+        case 12 : total = min * 2 ; cout<<" "<<total <<endl; break;
+        case 15 : total = min * 2.2 ; cout<<" "<<total <<endl; break;
+        case 18 : total = min * 4.5 ; cout<<" "<<total <<endl; break;
+        case 19 : total = min * 3.5 ; cout<<" "<<total <<endl; break;
+        case 23 : total = min * 6 ; cout<<" "<<total <<endl; break;
+        case 25 : total = min * 6 ; cout<<" "<<total <<endl; break;
+        case 29 : total = min * 5 ; cout<<" "<<total <<endl; break;
+        default : cout<<"ERROR DE INGRESO DE DATOS"; break;
+    }
+    
+    return 0;
+}
